@@ -1,8 +1,58 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
 body {
-    background-color: lightslategray;
-  }
-  
-  h1 {
-    color: black;
-    margin-left: 20px;
-  }
+  background-color: #777777;
+}
+
+span#name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header{
+  max-width: 800px;
+  padding: 2em;
+  overflow: hidden;
+  margin: auto;
+}
+
+div#name-area{
+  float: left;
+}
+
+div#contact-info {
+  float: right;
+  text-align: center;
+}
+
+.menu {
+  max-width: 800px;
+  padding: 0.5em 2em;
+  margin: auto;
+  background-color: #555555;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  padding: inherit;
+  margin: 0px 0px;
+  color: white;
+}
+
+.mainArea {
+  max-width: 800px;
+  padding: 1em 2em;
+  margin: auto;
+}
+
+.menu a:hover {
+  font-weight: bold;
+}
+
+.menu a.selected {
+  font-weight: bold;
+}
