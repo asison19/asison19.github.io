@@ -39,19 +39,87 @@
 
             <main>
                 <article>
-                    <h2>About</h2>
-
                     <p>
                         Hello! My name is Andrew Sison and I'm a Software Engineer. This is my website where I'll
-                        (eventually) be putting my resume/portfolio on and potentially making posts usually related to Software Engineering and related topics.
+                        (eventually) be putting my resume/portfolio on with more detail and potentially making posts 
+                        usually related to Software Engineering and related topics.
                     </p>
+                </article>
+
+                <!-- TODO leave most important details here, move more detailed resume/portfolio to a seperate page -->
+                <article>
                     <h2>Résumé</h2>
                     <h3>Experience</h3>
-                    <p>
-                        <strong>Software Engineer</strong><br />
-                        Northrop Grumman <br />
-                        January 2020 - Present <br />
-                    </p>
+                    <hr>
+                    <div class="resume-title">
+                        <span>Software Engineer</span>
+                        <span>Northrop Grumman</span>
+                        <span>January 2020 - Present<span>
+                    </div>
+                    <ul>
+                        <li>Researched with R&D team CI/CD pipeline tools such as Docker, Kubernetes, Jira, Bamboo, etc.</li>
+                        <li>Automated provisioning, and configuration of infrastructure and CI/CD pipeline tools using Ansible.</li>
+                        <li>Created automated unit tests part of a nightly Jenkins build to verify Ansible code using Molecule.</li>
+                        <li>Led research of Kubernetes and automated the creation of a Kubernetes cluster using Ansible.</li>
+                        <li>Demonstrated to executives and key stakeholders the benefits of Docker along with the time saved and ease of use of our Ansible automated Docker configurations.</li>
+                        <li>Assisted a program/team by fixing C++/Qt bugs, facilitating teamwork, and writing documentation.</li>
+                    </ul>
+
+                    <h3>Education</h3>
+                    <hr>
+                    <div class="resume-title">
+                        <span>Pomona, CA</span>
+                        <span>California State Polytechnic University, Pomona</span>
+                        <span>December 2019</span>
+                    </div>
+                    <ul> 
+                        <!-- TODO make coursework a list? -->
+                        <li><strong>Bachelor of Science in Computer Science</strong></li>
+                        <li><strong>Coursework: </strong>Big Data & Cloud Computing, Parallel Processing, Algorithms, Compilers & Interpreters, Operating Systems, Software Engineering, Computer Architecture, Programming GUIs</li>
+                    </ul>
+                    <div class="resume-title">
+                        <span>Norco, CA</span>
+                        <span>Norco College</span>
+                        <span>May 2017</span>
+                    </div>
+                    <ul>
+                        <li><strong>Dean's Honor List: </strong>Fall 2014 - Spring 2017</li>
+                    </ul>
+
+                    <h3>Projects</h3>
+                    <hr>
+                    <div class="resume-title">
+                        <span>Java</span>
+                        <span><a href="https://github.com/asison19/lexical-analyzer">Lexical and Syntax Analyzer</a></span>
+                    </div>
+                    <ul>
+                        <li>Wrote the Lexer and the Parser using JFlex and CUP and designed the grammar of the language.</li>
+                        <li>Created a Trie Table to hold keywords and identifiers, making search and insertion O(log|k|n).</li>
+                        <li>Provided QA by fixing lexical rules, ensuring proper tokenization, and solving grammar ambiguities.</li>
+                        <li>Verified parsing of the input into lexemes, and wrote pattern definitions using regular expressions.</li>
+                        <li>Led team of 2, and taught partner Git, ensuring proper version control of the project.</li>
+                    </ul>
+                    <div class="resume-title">
+                        <span>Python</span>
+                        <span><a href="https://github.com/asison19/CS4650-Project1">Data Visualizations of Cal Poly Pomona</a></span>
+                    </div>
+                    <ul>
+                        <li>Scripted in Python, along with NumPy, Pandas, and MatPlotLib.</li>
+                        <li>Graphed visualizations of PM levels, temperature, and humidity by using the Pandas data frame API, and reading in csv files from Purple Air’s public air quality sensors.</li>
+                        <li>Analyzed graphs, confirming a relationship between time, PM levels, humidity, and temperature.</li>
+
+                    </ul>
+
+                    <div class="resume-title">
+                        <span>C++, Qt</span>
+                        <span><a href="https://github.com/clovenski/isolation-game">Isolation Game</a></span>
+                    </div>
+                    <ul>
+                        <li>Integrated the GUI with the AI using C++ and Qt in collaboration with the team.</li>
+                        <li>Used Qt slots and signals for seamless object communication, reducing boilerplate code.</li>
+                        <li>Designed and implemented intuitive click-and-drag controls using the Qt graphics scene and view.</li>
+                    </ul>
+
                 </article>
             </main>
         </div>
