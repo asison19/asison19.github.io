@@ -82,3 +82,12 @@ div.resume-title span:first-child {
 div.resume-title span:last-child {
   text-align: right;
 }
+
+.header {
+  visibility: hidden;
+  text-decoration: none;
+}
+
+#resume:hover .header {
+  visibility: visible;
+}

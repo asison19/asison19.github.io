@@ -30,9 +30,7 @@
 
         <nav class="navbar">
             <a href="index.html" class="selected">Home</a>
-            <a href="index.html">Projects</a>
-            <a href="index.html">Other</a>
-            <a href="index.html">Other</a>
+            <a href="html/projects.html">Projects</a>
         </nav>
 
         <div class="mainArea">
@@ -48,7 +46,11 @@
 
                 <!-- TODO leave most important details here, move more detailed resume/portfolio to a seperate page -->
                 <article>
-                    <h2>Résumé</h2>
+                    <h2 id="resume">
+                        Résumé 
+                        <a class="fa fa-chain header" href="#resume" title="Permalink to this header"></a>
+                    </h2>
+                    
                     <h3>Experience</h3>
                     <hr>
                     <div class="resume-title">
@@ -119,7 +121,6 @@
                         <li>Used Qt slots and signals for seamless object communication, reducing boilerplate code.</li>
                         <li>Designed and implemented intuitive click-and-drag controls using the Qt graphics scene and view.</li>
                     </ul>
-
                 </article>
             </main>
         </div>
