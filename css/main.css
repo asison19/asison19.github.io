@@ -1,6 +1,8 @@
 * {
   font-family: Helvetica;
   box-sizing: inherit;
+  
+  background-color: #999999;
 }
 
 body {
@@ -9,39 +11,58 @@ body {
 }
 
 span#name {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 header{
-  max-width: 800px;
-  padding: 2em;
+  /* max-width: 800px; */
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 1em;
   overflow: hidden;
   margin: auto;
 }
 
 div#name-area{
   float: left;
+  background-color: inherit;
+}
+
+div#name-area * {
+  background-color: inherit;
 }
 
 div#contact-info {
   float: right;
   text-align: center;
-  
+  font-size: 18px;
+  background-color: inherit;
 }
 
-/* div#contact-info a {
+div#contact-info * {
+  background-color: inherit;
+}
+
+div#contact-info a {
   text-decoration: none;
-} */
+  color: #FFFFFF;
+  padding-right: 1em;
+}
+
+div#contact-info a:hover {
+  color: #AAAAAA;
+}
 
 .navbar {
   margin: auto;
   max-width: 800px;
-  background-color: white;
+  background-color: inherit;
   width: 100%;
   overflow: hidden;
   border-bottom: 1px solid #AAAAAA;
   box-sizing: inherit;
+  padding-top: 2em;
 }
 
 .navbar a {
@@ -49,20 +70,27 @@ div#contact-info {
   text-decoration: none;
   float: left;
   padding:0.375em 1em; 
+  border-radius: 25px;
 }
 
-.navbar a:hover {
-  background-color: #AAAAAA;
-}
-
+.navbar a:hover, 
 .navbar a.selected {
   background-color: #AAAAAA;
 }
 
+.background {
+  background-color: #999999;
+}
+
 .mainArea {
   max-width: 800px;
-  padding: 1em 2em;
+  padding: 0em 2em 1em;
   margin: auto;
+  background-color: white;
+}
+
+.mainArea * {
+  background-color: inherit;
 }
 
 div.resume-title{
