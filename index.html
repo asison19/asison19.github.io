@@ -34,11 +34,11 @@
             </div>
         </header>
 
-
         <div class="background">
             <div class="mainArea">
                 <nav class="navbar">
                     <a href="index.html" class="selected">Home</a>
+                    <a href="html/resume.html">Résumé</a>
                     <a href="html/projects.html">Projects</a>
                 </nav>
                 <main>
@@ -48,123 +48,6 @@
                             (eventually) be putting my resume/portfolio on with more detail and potentially making posts
                             usually related to Software Engineering and related topics.
                         </p>
-                    </article>
-
-                    <!-- TODO leave most important details here, move more detailed resume/portfolio to a seperate page -->
-                    <article>
-                        <h2 id="resume">
-                            Résumé
-                            <a class="fa fa-chain header" href="#resume" title="Permalink to this header"></a>
-                        </h2>
-
-                        <h3>Experience</h3>
-                        <hr>
-<!--
-                        <div class="resume-title">
-                            <span>CVS Health</span>
-                            <span>September 2024 - Present<span>
-                        </div>
-                        <span>Senior Site Reliabilitiy Engineer</span>
-                        <ul>
-                            <li></li>
-                        </ul>
--->
-                        <div class="resume-title">
-                            <span>Filevine</span>
-                            <span>August 2021 - September 2024<span>
-                        </div>
-                        <span>Site Reliabilitiy Engineer</span>
-                        <ul>
-                            <li>Architected and modularized a unified alerting structure for multiple services allowing alerts to notify accountable teams, leading to quicker response times and a reduction in MTTR.</li>
-                            <li>Migrated services, which send over 1 million emails a month combined, from a monolithic outgoing email repository to an outgoing email microservice, leading to a failure rate of less than 0.0001\% of emails sent.</li>
-                            <li>Provisioned New Relic monitors, dashboards, and alerts to cover the golden signals and SLOs of various services, lowering incident MTTI from hours to minutes.</li>
-                            <li>Handled incidents as an on-call engineer for a multi-tenant SaaS, helping fight fires and ensure software reliability for over 65,000 users across multiple shards.</li>
-                            <li>Discovered and fixed a bug that caused hundreds of incoming email messages and invitations to fail per month by using inherited variables over new ones, and wrote tests to prevent the bug from occurring again.</li>
-                        </ul>
-
-                        <div class="resume-title">
-                            <span>Northrop Grumman</span>
-                            <span>January 2020 - August 2021<span>
-                        </div>
-                        <span>Software Engineer</span>
-                        <ul>
-                            <li>Stress-tested a Qt (C++) satellite simulation client and refactored the client to use a single GUI thread in lieu of multiple threads that were causing crashes, reducing the number of crashes by $\mathtt{\sim}$80 per month per client.</li>
-                            <li>Redesigned a satellite simulation client to have a drop-down of satellite simulations, with a tooltip feature to organize telemetry with respect to the simulation in question.</li>
-                            <li>Using Ansible, automated and hardened deployments of tooling such as Docker, Kubernetes, Jira, and Bamboo, minimizing deployment times for internal teams from weeks to hours.</li>
-                            <li>Leveraged Molecule to write automated unit tests of Ansible code and automated the provisioning of Docker Desktop, allowing containerized Molecule unit testing for Windows, saving at least 80 developer hours per month, quantified by the amount of bugs reported by end users.</li>
-                        </ul>
-
-                        <h3>Education</h3>
-                        <hr>
-                        <div class="resume-title">
-                            <span>Pomona, CA</span>
-                            <span>California State Polytechnic University, Pomona</span>
-                            <span>December 2019</span>
-                        </div>
-                        <ul>
-                            <!-- TODO make coursework a list? -->
-                            <li><strong>Bachelor of Science in Computer Science</strong></li>
-                            <li><strong>Coursework: </strong>Big Data & Cloud Computing, Parallel Processing,
-                                Algorithms,
-                                Compilers & Interpreters, Operating Systems, Software Engineering, Computer
-                                Architecture,
-                                Programming GUIs</li>
-                        </ul>
-                        <div class="resume-title">
-                            <span>Norco, CA</span>
-                            <span>Norco College</span>
-                            <span>May 2017</span>
-                        </div>
-                        <ul>
-                            <li><strong>Dean's Honor List: </strong>Fall 2014 - Spring 2017</li>
-                        </ul>
-
-                        <h3>Projects</h3>
-                        <hr>
-                        <div class="resume-title">
-                            <span>Java</span>
-                            <span><a href="https://github.com/asison19/lexical-analyzer" target="_blank">Lexical and Syntax
-                                    Analyzer</a></span>
-                        </div>
-                        <ul>
-                            <li>Wrote the Lexer and the Parser using JFlex and CUP and designed the grammar of the
-                                language.
-                            </li>
-                            <li>Created a Trie Table to hold keywords and identifiers, making search and insertion
-                                O(log|k|n).</li>
-                            <li>Provided QA by fixing lexical rules, ensuring proper tokenization, and solving grammar
-                                ambiguities.</li>
-                            <li>Verified parsing of the input into lexemes, and wrote pattern definitions using regular
-                                expressions.</li>
-                            <li>Led team of 2, and taught partner Git, ensuring proper version control of the project.
-                            </li>
-                        </ul>
-                        <div class="resume-title">
-                            <span>Python</span>
-                            <span><a href="https://github.com/asison19/CS4650-Project1" target="_blank">Data Visualizations of Cal Poly
-                                    Pomona</a></span>
-                        </div>
-                        <ul>
-                            <li>Scripted in Python, along with NumPy, Pandas, and MatPlotLib.</li>
-                            <li>Graphed visualizations of PM levels, temperature, and humidity by using the Pandas data
-                                frame API, and reading in csv files from Purple Air’s public air quality sensors.</li>
-                            <li>Analyzed graphs, confirming a relationship between time, PM levels, humidity, and
-                                temperature.</li>
-
-                        </ul>
-
-                        <div class="resume-title">
-                            <span>C++, Qt</span>
-                            <span><a href="https://github.com/clovenski/isolation-game" target="_blank">Isolation Game</a></span>
-                        </div>
-                        <ul>
-                            <li>Integrated the GUI with the AI using C++ and Qt in collaboration with the team.</li>
-                            <li>Used Qt slots and signals for seamless object communication, reducing boilerplate code.
-                            </li>
-                            <li>Designed and implemented intuitive click-and-drag controls using the Qt graphics scene
-                                and
-                                view.</li>
-                        </ul>
                     </article>
                 </main>
             </div>
