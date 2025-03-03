@@ -69,11 +69,11 @@
                         </div>
                         <span>Site Reliability Engineer II</span>
                         <ul>
-                            <li>Architected and modularized a unified alerting structure for multiple services allowing alerts to notify accountable teams, leading to quicker response times and a reduction in MTTR.</li>
-                            <li>Migrated services, which send over 1 million emails a month combined, from a monolithic outgoing email repository to an outgoing email microservice, leading to a failure rate of less than 0.0001\% of emails sent.</li>
-                            <li>Provisioned New Relic monitors, dashboards, and alerts to cover the golden signals and SLOs of various services, lowering incident MTTI from hours to minutes.</li>
-                            <li>Handled incidents as an on-call engineer for a multi-tenant SaaS, helping fight fires and ensure software reliability for over 65,000 users across multiple shards.</li>
-                            <li>Discovered and fixed a bug that caused hundreds of incoming email messages and invitations to fail per month by using inherited variables over new ones, and wrote tests to prevent the bug from occurring again.</li>
+                            <li>Architected and modularized a unified alerting structure for multiple services in Terraform allowing alerts to notify accountable teams, leading to quicker response times and a reduction in MTTR.</li>
+                            <li>Migrated services, which send over 1 million emails a month combined, from a monolithic outgoing email repository to an outgoing email microservice, leading to a failure rate of less than 0.0001% of emails sent.</li>
+                            <li>Provisioned New Relic monitors, dashboards, and alerts using Terraform to cover the golden signals of monitoring and SLOs of various services, lowering incident MTTI from hours to minutes.</li>
+                            <li>Handled incidents as an on-call engineer for a multi-tenant SaaS, helping fight fires and ensure software reliability for a userbase across multiple geographically diverse shards.</li>
+                            <li>Discovered and fixed a C# bug that caused hundreds of incoming email messages and invitations to fail per month by using inherited variables over new ones, and wrote tests to prevent the bug from occurring again.</li>
                         </ul>
 
                         <div class="resume-title">
@@ -82,10 +82,10 @@
                         </div>
                         <span>Software Engineer</span>
                         <ul>
-                            <li>Stress-tested a Qt (C++) satellite simulation client and refactored the client to use a single GUI thread in lieu of multiple threads that were causing crashes, reducing the number of crashes by $\mathtt{\sim}$80 per month per client.</li>
+                            <li>Stress-tested a C++ satellite simulation client and refactored the client to use a single GUI thread in lieu of multiple threads that were causing crashes, reducing the number of crashes by ~80 per month per client.</li>
                             <li>Redesigned a satellite simulation client to have a drop-down of satellite simulations, with a tooltip feature to organize telemetry with respect to the simulation in question.</li>
                             <li>Using Ansible, automated and hardened deployments of tooling such as Docker, Kubernetes, Jira, and Bamboo, minimizing deployment times for internal teams from weeks to hours.</li>
-                            <li>Leveraged Molecule to write automated unit tests of Ansible code and automated the provisioning of Docker Desktop, allowing containerized Molecule unit testing for Windows, saving at least 80 developer hours per month, quantified by the amount of bugs reported by end users.</li>
+                            <li>Leveraged Molecule to write automated unit tests of Ansible code and automated the provisioning of Docker Desktop, allowing containerized Molecule unit testing for Windows.</li>
                         </ul>
 
                         <h3>Education</h3>
@@ -122,7 +122,7 @@
                         <ul>
                             <li>Designed a language to allow users to easily add multiple foods, dates, and times.</li>
                             <li>Wrote the lexer and tests in Go with proper handling of edge cases during lexical analysis.</li>
-                            <li>Using GitHub Actions, created a CI/CD pipeline to automate testing and Terraform deployments on GCP.</li>
+                            <li>Using GitHub Actions, created a CI/CD pipeline to automate Go unit tests, Terraform cloud infrastructure deployments, and Docker image pushing.</li>
                         </ul>
                         <div class="resume-title">
                             <span><a href="https://github.com/clovenski/isolation-game" target="_blank">Isolation Game</a></span>
