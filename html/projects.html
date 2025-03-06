@@ -63,11 +63,21 @@
                         <i class="fa fa-github"></i>
                         <a href="https://github.com/asison19/food-interpreter" target="_blank">Github</a>
                         <p>
-                            I've designed a language that I've been using on my own personal food diary to help me watch my overall health. The goal of this project is to turn any input of the language, like a food diary and eventually a http request, into a csv that could then be used to visualize and graph a user's food intake. The idea is to show the user the amount of foods they eat, the nutrition, and eventually more. Other than food intake, other goals for the interpreter include food output, sleep, and exercise.
+                            I've designed a language that can be used as a food diary to help users watch their overall health. The goal of this project is to turn any input of the language, like a food diary and eventually a http request, into a csv that could then be used to visualize and graph a user's food intake. The idea is to show the user the amount of foods they eat, the nutrition, and eventually more. Other than food intake, other goals for the interpreter include food output, sleep, and exercise.
                         </p>
                         <p>
-                            Right now I've written the Lexer along with its automated CI/CD tests, and I'm currently working on the CI/CD portion to deploy its infrastructure to GCP.
+                            I've currently completed the following:
                         </p>
+                        <ul>
+                            <li>Wrote the Lexer in the Go programming language.</li>
+                            <li>Wrote Terraform to deploy various GCP resources such as for Cloud Run, Pub/Sub, Artifact Repository, and IAMs.</li>
+                            <li>Created CI/CD pipelines using GitHub Actions to do the following:</li>
+                                <ul>
+                                    <li>Run the Lexer tests automatically after every commit.</li>
+                                    <li>Run Terraform plan and apply to deploy to Google Cloud Platform.</li>
+                                    <li>Push the Lexer Docker Image.</li>
+                                </ul>
+                        </ul>
                     </article>
                     <article>
                         <h3 id="isolation-game">
