@@ -1,8 +1,6 @@
 * {
   font-family: Helvetica;
   box-sizing: inherit;
-  
-  background-color: #999999;
 }
 
 body {
@@ -137,4 +135,14 @@ div.resume-title span:last-child {
 
 .languages {
   font-weight: bold;
+}
+
+pre code {
+  background-color: #112244 !important;
+  border: 1px solid #555555;
+  display: block;
+  padding: 20px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  color: #CCCCCC;
 }
