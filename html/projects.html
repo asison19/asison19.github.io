@@ -70,7 +70,13 @@
                         </p>
                         <ul>
                             <li>Wrote the Lexer and Parser in the Go programming language.</li>
-                            <li>Wrote Terraform to deploy various GCP resources such as for Cloud Run, Pub/Sub, Artifact Repository, GKE, and IAMs.</li>
+                            <li>Wrote Terraform code to deploy various GCP resources such as:</li>
+                                <ul>
+                                    <li>Pub/Sub Topics and Subscriptions for asynchronous communication between services.</li>
+                                    <li>Cloud Run Services for serverless computation.</li>
+                                    <li>Artifact Repository to hold Docker images.</li>
+                                    <li>IAMs to run everything on a least privilege principle.</li>
+                                </ul>
                             <li>Created CI/CD pipelines using GitHub Actions to do the following:</li>
                                 <ul>
                                     <li>Run the Lexer tests automatically after every commit.</li>
